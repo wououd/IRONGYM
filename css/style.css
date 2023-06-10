@@ -24,46 +24,10 @@ footer small{
         }
 
 /*page d'accuiel---------------------------------------------------------------*/
-body{
-    background-image: url("images/bg-image.png");
-    background-attachment: scroll;
-}
-.navbar{
-    position: relative;
-    opacity: 0.9;
-    z-index: 10000;
-}
-.navbar-nav{
-    display: flex;
-    gap: 72px;
-
-}
-.navbar-nav li{
-    list-style: none;
-}
-.navbar-nav li a{
-    font-size: 18px;
-    font-weight:700;
-    text-decoration: none;
-    text-transform: uppercase;
-    color:black;
-    padding: 10px;
-    transition: 0.5s ease;
-
-} 
-
-.navbar-nav:hover li a{
-    color:blueviolet !important;
-}
-.navbar-nav:hover li a:not(:hover){
-    color:gray;
-    opacity:0.4;
-    filter: blur(1px);
-}
 
 /* page fitness--------------------------------------------------------------------------------------*/
 .image{
-    background-image: url("/images/bg-fitness.png");
+    background-image: url("images/bg-fitness.png");
     background-attachment: fixed;
     
 }
@@ -109,7 +73,7 @@ height: 400px !important;
 }
 /*Dance..........................................................*/
 .imaged{
-    background-image: url("/images/bg-dancing.png");
+    background-image: url("images/bg-dancing.png");
     background-attachment: fixed;
     
 }
@@ -156,7 +120,7 @@ height: 400px !important;
 /* contact..............................................................................*/
 
 .imagecont{
-    background-image: url("/images/contact-background.png");
+    background-image: url("images/contact-background.png");
     background-size:auto;
     background-repeat: no-repeat;
 
@@ -166,7 +130,7 @@ height: 400px !important;
     height: 400px;
 }
 .col-md-3{
-    background-image: url("/images/contact.png");
+    background-image: url("images/contact.png");
     background-size:cover;
     padding: 4%;
     border-top-left-radius: 0.5rem;
@@ -228,7 +192,7 @@ i:hover{
 }
 /*Sign_in///////////////////////////////////////////////////////////////*/
 .imageins{
- background-image: url("/images/bg-signin.png");
+ background-image: url("images/bg-signin.png");
  background-attachment: fixed;
 background-size: cover;
 background-repeat: no-repeat;
@@ -334,7 +298,7 @@ height: 100%;
     }
     /*page schudenle//////////////////////////////////////////*/
     .imageplan{
-        background-image: url("/images/bg-\ Planing.png");
+        background-image: url("images/bg-\ Planing.png");
          background-attachment: fixed;
          background-size:cover;
          background-repeat: no-repeat;   
@@ -343,7 +307,7 @@ height: 100%;
     
 .planing{
         height: 450px;
-        background-image: url("/images/schedule/Yoga.png");
+        background-image: url(" images/schedule/Yoga.png");
         background-size: cover;
         opacity: 0.9;
         margin-top: 5%;
