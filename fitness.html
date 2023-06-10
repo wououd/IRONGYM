@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=muscleandfitness.com">
+    <title>fitness</title>
+</head>
+<body class="image">
+    <div id="top-menu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" width="70px" height="70px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+               <li class="nav-item dropdown ml-3 active"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Activities  </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="yoga.html">Yoga</a>
+                        <a class="dropdown-item" href="fitness.html">Fitness</a>
+                        <a class="dropdown-item" href="dance.html">Dance</a>
+                        <a class="dropdown-item" href="kids.html">Kids Club</a>
+                      </div>
+                    </li>
+                <li class="nav-item ml-3">
+                  <a class="nav-link" href="schedule.html">Schedule</a>
+                </li>
+                <li class="nav-item ml-3">
+                  <a class="nav-link" href="contact.html">Contact Us
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <input
+            type="button"
+            class="btn btn-warning rounded-pill px-2"
+            value="Sign In"
+            onclick="location.href='sign_in.html'"
+          />
+          </nav>
+        </div>
+        <div class="container my-4">
+          <h1 class="fitness-title mx-auto">Fitness<span><img class="mx-auto" src="images/Logo-fitness.png" width="100px" height="100px"></span></h1> 
+          <h3 class="fitness-sous-title my-2">Improve your physical condition and put sport in your life!</h3>
+        </div>
+
+        <div class="container">
+          <div class="row my-4">
+            <div class="col-sm-6">
+              <div class="card p-0">
+                <div class="card-body fitness-video">
+                  <video autoplay repeat>
+                    <source src="videos/musculation.mp4" >
+                  </video>
+                  <h3 class="card-title">Muscle building</h3>
+                  <p class="card-text fitness-description">the goal is to sculpt the silhouette by working with resistance based on weights, rubber bands, weighted sticks.</p>
+                  <h5 class="btn btn-warning fitness-price"> 75 tnd/month</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card p-0">
+                <div class="card-body fitness-video">
+                  <video autoplay repeat>
+                    <source src="videos/cardio.mp4">
+                  </video>
+                  <h5 class="card-title">cardio-choreographed</h5>
+                  <p class="card-text fitness-description">the objective is to work on endurance and burn calories (step, LIA, etc.)</p>
+                  <h5 class="btn btn-warning fitness-price"> 65 tnd/month</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row my-4">
+            <div class="col-sm-6">
+              <div class="card p-0">
+                <div class="card-body fitness-video">
+                  <video autoplay repeat>
+                    <source src="videos/body-mind.mp4"  >
+                  </video>
+                  <h3 class="card-title">Body mind</h3>
+                  <p class="card-text fitness-description"> here it is the work of the deep muscles and the postural work in order to find the body mind</p>
+                  <h5 class="btn btn-warning fitness-price"> 115 tnd/month</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card p-0">
+                <div class="card-body fitness-video">
+                  <video autoplay repeat>
+                    <source src="videos/physical culture.mp4">
+                  </video>
+                  <h5 class="card-title">Physical culture</h5>
+                  <p class="card-text fitness-description">The art of betting on your return to (almost) Olympic form, but also the art of toning your body.</p>
+                  <h5 class="btn btn-warning fitness-price"> 95 tnd/month</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="container my-4 right ">
+            <input class="btn btn-warning rounded-pill w-25" type="button" value="See schedule" onclick="location.href='schedule.html'">
+          </div>
+            </div>
+          </div>
+        </div>
+    <script src="js/jquery-3.6.3.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+<footer>
+  <p class="left">
+  @all rights are reserved
+  </p>
+  <small class="right">IRON GYM</small>
+
+</footer>
+</html>

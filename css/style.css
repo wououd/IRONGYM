@@ -1,0 +1,388 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+footer{
+            background-color: lightgray;
+            opacity: 0.9;
+            margin-top: 350px;
+            position: relative;
+            height: 70px;
+            
+}
+ footer p{
+            position: absolute;
+            top: 30px;
+            left: 5px;
+        }
+        
+footer small{
+            position: absolute;
+            top: 30px;
+            right: 5px;
+        }
+
+/*page d'accuiel---------------------------------------------------------------*/
+body{
+    background-image: url("images/bg-image.png");
+    background-attachment: scroll;
+}
+.navbar{
+    position: relative;
+    opacity: 0.9;
+    z-index: 10000;
+}
+.navbar-nav{
+    display: flex;
+    gap: 72px;
+
+}
+.navbar-nav li{
+    list-style: none;
+}
+.navbar-nav li a{
+    font-size: 18px;
+    font-weight:700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+    padding: 10px;
+    transition: 0.5s ease;
+
+} 
+
+.navbar-nav:hover li a{
+    color:blueviolet !important;
+}
+.navbar-nav:hover li a:not(:hover){
+    color:gray;
+    opacity:0.4;
+    filter: blur(1px);
+}
+
+/* page fitness--------------------------------------------------------------------------------------*/
+.image{
+    background-image: url("/images/bg-fitness.png");
+    background-attachment: fixed;
+    
+}
+
+.fitness-title{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 68px;
+    text-align: center;
+    
+}
+.fitness-sous-title{
+    color:white;
+    text-align: center; 
+   
+
+}
+.card-text{
+    color: black;
+}
+.fitness-video video{
+width: 500px !important;
+height: 400px !important;
+
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 40px;
+    } 
+.fitness-price{
+    font-weight: bold;
+    text-align: center;
+    margin-left: 30%;
+}
+.right{
+    text-align:center ;
+    
+}
+.btn{
+    font-weight: bold;
+}
+/*Dance..........................................................*/
+.imaged{
+    background-image: url("/images/bg-dancing.png");
+    background-attachment: fixed;
+    
+}
+
+.dance-title{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 68px;
+    text-align: center;
+    
+}
+.dance-sous-title{
+    color:white;
+    text-align: center; 
+   
+
+}
+.card-text{
+    color: black;
+}
+.dance-video video{
+width: 500px !important;
+height: 400px !important;
+
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 40px;
+    } 
+.dance-price{
+    font-weight: bold;
+    text-align: center;
+    margin-left: 30%;
+}
+.right{
+    text-align:center ;
+    
+}
+.btn{
+    font-weight: bold;
+}
+/* contact..............................................................................*/
+
+.imagecont{
+    background-image: url("/images/contact-background.png");
+    background-size:auto;
+    background-repeat: no-repeat;
+
+}
+.contact{
+    padding: 4%;
+    height: 400px;
+}
+.col-md-3{
+    background-image: url("/images/contact.png");
+    background-size:cover;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+    margin-top:10%;
+    color: #fff;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h1{
+    margin-top: 30%;
+    font-weight: bolder;
+    color: #FFC312;
+    text-align: center;
+}
+.contact-info h4{
+    margin-top:20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+
+}
+.col-md-9{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background: #48494d;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+.contact-us .color{
+    height: 16px;
+    width:50px;
+    background-color: #FFC312;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.social .fa-brands{ 
+    font-size: 20px;
+}
+i:hover{ 
+   color:blueviolet
+}
+/*Sign_in///////////////////////////////////////////////////////////////*/
+.imageins{
+ background-image: url("/images/bg-signin.png");
+ background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+}
+.containers{
+    height: 100%;
+    align-content: center;
+}
+    
+.cards{
+    height: 370px;
+    margin-top: 150px;
+    margin-left: 220px;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+    
+    .card-header .social_icon span{
+    position:relative;
+    top: 260px;
+    font-size: 60px;
+    right:430px;
+    margin-left:10px;
+    color: #FFC312;
+    }
+    
+    .card-header .social_icon span:hover{
+    color: white;
+    cursor: pointer;
+    }
+    
+    .card-header h3{
+    color: white;
+    }
+    
+    .social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+    }
+    
+    .input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+    }
+    
+    input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+    }
+    
+    .remember{
+    color: white;
+    }
+    
+    .remember input
+    {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    }
+    
+    .login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+    }
+    
+    .login_btn:hover{
+    color: black;
+    background-color: white;
+    }
+    
+    .links{
+    color: white;
+    }
+    
+    .links a{
+    margin-left: 4px;
+    }
+    /*page signup//////////////////////////////////////////*/
+    .cardsup{
+        height: auto;
+        margin-top: 150px;
+        margin-left: 220px;
+        margin-bottom: auto;
+        width: 500px;
+        background-color: rgba(0,0,0,0.5) !important;
+        }
+    .color{
+        color:#fff;
+        font-size: 18px;
+    }
+    .form-groupbt{
+        right: 50px;
+        
+    }
+    /*page schudenle//////////////////////////////////////////*/
+    .imageplan{
+        background-image: url("/images/bg-\ Planing.png");
+         background-attachment: fixed;
+         background-size:cover;
+         background-repeat: no-repeat;   
+    
+    }    
+    
+.planing{
+        height: 450px;
+        background-image: url("/images/schedule/Yoga.png");
+        background-size: cover;
+        opacity: 0.9;
+        margin-top: 5%;
+      
+}
+.planing .list{
+    top: 0;
+    height: 25px;
+}
+.planing .list ul{
+    display: flex;
+    list-style: none;
+    justify-items: center;
+    margin-left: 100px;
+
+}
+.planing .list ul li{
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 10px 20px;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 25px;
+}
+
+.planing .list ul li:hover{
+   border-bottom:3px solid blueviolet !important;
+}
+
+.planing .activity-description{
+    position: relative;
+    width: 50% ;
+    height: 55%;
+    top: 39%;
+    left: 50%;
+    background-color: #fff;
+    border-top:3px solid blueviolet !important;
+
+
+}

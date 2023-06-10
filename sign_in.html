@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=muscleandfitness.com">
+    <title>Sign in</title>
+</head>
+<body class="imageins">
+    <div id="top-menu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" width="70px" height="70px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+               <li class="nav-item dropdown ml-3"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Activities  </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="yoga.html">Yoga</a>
+                        <a class="dropdown-item" href="fitness.html">Fitness</a>
+                        <a class="dropdown-item" href="dance.html">Dance</a>
+                        <a class="dropdown-item" href="Kids.html">Kids Club</a>
+                      </div>
+                    </li>
+                <li class="nav-item ml-3">
+                  <a class="nav-link" href="schedule.html">Schedule</a>
+                </li>
+                <li class="nav-item ml-3">
+                  <a class="nav-link" href="contact.html">Contact Us
+                  </a>
+                </li>
+                </ul>
+            </div>
+            <input
+            type="button"
+            class="btn btn-warning rounded-pill px-2"
+            value="Sign In"
+            onclick="location.href='sign_in.html'"
+          />
+          </nav>
+        </div>
+
+ <div class="containers">
+            <div class="d-flex justify-content-center h-100">
+              <div class="cards">
+                <div class="card-header">
+                  <h3>Sign In</h3>
+                  <div class="d-flex justify-content-end social_icon">
+                    <span><i class="fa-brands fa-square-facebook"></i></span>
+                    <span><i class="fab fa-google-plus-square"></i></span>
+                    <span><i class="fab fa-twitter-square"></i></span>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <form>
+                    <div class="input-group form-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                      </div>
+                      <input type="text" class="form-control" placeholder="username">
+                      
+                    </div>
+                    <div class="input-group form-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-key"></i></span>
+                      </div>
+                      <input type="password" class="form-control" placeholder="password">
+                    </div>
+                    <div class="row align-items-center remember">
+                      <input type="checkbox">Remember Me
+                    </div>
+                    <div class="form-group">
+                      <input type="submit" value="Login" class="btn float-right login_btn btn-warning">
+                    </div>
+                  </form>
+                </div>
+                <div class="card-footer">
+                  <div class="d-flex justify-content-center links">
+                    Don't have an account?<a href="sign_up.html">Sign Up</a>
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <a href="#">Forgot your password?</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <footer>
+            <p class="left">
+            @all rights are reserved
+            </p>
+            <small class="right">IRON GYM</small>
+        
+          </footer>
+      <script src="js/jquery-3.6.3.js"></script>
+      <script src="js/popper.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+      <!-- firebase part-->
+  <script>
+    // Import the functions you need from the SDKs you need
+    //import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyCMQWBI7OX9QlyzhSRT43yiYu6vmzJpBgc",
+      authDomain: "iron-gym-26af6.firebaseapp.com",
+      projectId: "iron-gym-26af6",
+      storageBucket: "iron-gym-26af6.appspot.com",
+      messagingSenderId: "256233740398",
+      appId: "1:256233740398:web:688312f9ba0d7bb4932e7f"
+    };
+  
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+      //init services
+      const db = firebase.firestore();
+  </script>
+  </body>
+</html>

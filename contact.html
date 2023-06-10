@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=muscleandfitness.com">
+    <title>Contact</title>
+</head>
+<body class="imagecont">
+    <div id="top-menu">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" width="70px" height="70px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+               <li class="nav-item dropdown ml-3 "> 
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown">
+                    Activities  </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="yoga.html">Yoga</a>
+                        <a class="dropdown-item" href="fitness">Fitness</a>
+                        <a class="dropdown-item" href="dance.html">Dance</a>
+                        <a class="dropdown-item" href="Kids.html">Kids Club</a>
+                      </div>
+                    </li>
+                <li class="nav-item ml-3">
+                  <a class="nav-link" href="schedule.html">Schedule</a>
+                </li>
+                <li class="nav-item ml-3 active">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>             
+              </ul>
+            </div>
+            <input type="button" class="btn btn-warning rounded-pill px-2" value="Sign In" onclick="location.href='sign_in.html'">
+          </nav>
+        </div>
+
+<div class="container contact my-4">
+	<div class="row">
+		<div class="col-md-3">
+			<div class="contact-info">
+				<h1>Contact Us</h1>
+				<h4>We would love to hear from you !</h4>
+        <div class="contact-social mb-4">
+          <div class="address my-3">
+            <i class="fa-solid fa-location-dot mr-4"></i>
+            <span> Cité d'el manzeh - 1450</span>
+          </div>
+          <div class="phone my-3">
+            <i class="fa-solid fa-phone mr-4"></i>
+            <span> +216-55669988</span>
+          </div>
+          <div class="email my-3">
+            <i class="fa-solid fa-envelope mr-4"></i>
+            <span>Irongym-fitness@gmail.fit</span>
+          </div>
+          <div class="contact-us mt-4">
+            <i class="fa-sharp fa-solid fa-rectangle color mr-2"></i><span>Contact with us</span> <br>
+           <div class="social">
+            <i class="fa-brands fa-facebook my-2 mx-2"></i>
+            <i class="fa-brands fa-twitter my-2 mx-2"></i>
+            <i class="fa-brands fa-instagram my-2 mx-2"></i></div> 
+
+          </div>
+        </div>
+			</div>
+		</div>
+		<div class="col-md-9">
+			<div class="contact-form">
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="fname">First Name:</label>
+				  <div class="col-sm-10">          
+					<input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="lname">Last Name:</label>
+				  <div class="col-sm-10">          
+					<input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="email">Email:</label>
+				  <div class="col-sm-10">
+					<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="comment">Comment:</label>
+				  <div class="col-sm-10">
+					<textarea class="form-control" rows="5" id="comment"></textarea>
+				  </div>
+				</div>
+				<div class="form-group">        
+				  <div class="col-sm-offset-2 col-sm-10">
+					<button type="submit" class="btn btn-default">envoyer</button>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer>
+  <p class="left">
+  @all rights are reserved
+  </p>
+  <small class="right">IRON GYM</small>
+
+</footer>
+<script src="js/jquery-3.6.3.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+
+<!-- firebase part-->
+<script>
+  // Import the functions you need from the SDKs you need
+  //import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyCMQWBI7OX9QlyzhSRT43yiYu6vmzJpBgc",
+    authDomain: "iron-gym-26af6.firebaseapp.com",
+    projectId: "iron-gym-26af6",
+    storageBucket: "iron-gym-26af6.appspot.com",
+    messagingSenderId: "256233740398",
+    appId: "1:256233740398:web:688312f9ba0d7bb4932e7f"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+    //init services
+    const db = firebase.firestore();
+</script>
+</body>
+</html>
