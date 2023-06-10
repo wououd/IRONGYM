@@ -25,6 +25,7 @@ footer small{
 
 /*page d'accuiel---------------------------------------------------------------*/
 
+
 /* page fitness--------------------------------------------------------------------------------------*/
 .image{
     background-image: url("images/bg-fitness.png");
@@ -307,7 +308,7 @@ height: 100%;
     
 .planing{
         height: 450px;
-        background-image: url(" images/schedule/Yoga.png");
+        background-image: url("images/schedule/Yoga.png");
         background-size: cover;
         opacity: 0.9;
         margin-top: 5%;
