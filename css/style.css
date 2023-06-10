@@ -25,7 +25,35 @@ footer small{
 
 /*page d'accuiel---------------------------------------------------------------*/
 
-
+.navbar{
+    position: relative;
+    opacity: 0.9;
+    z-index: 10000;
+}
+ .navbar-nav{
+    display: flex;
+    gap:72px
+}
+ .navbar-nav li{
+   list-style: none;
+}
+ .navbar-nav li a{
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 10px;
+    transition: 0.5s ease;
+ }
+  .navbar-nav:hover li a{
+    color: blueviolet !important ;
+ }
+  .navbar-nav:hover li a:not(:hover){
+    color: gray;
+    opacity: 0.4 ;
+    filter: blur(1px);
+ }
 /* page fitness--------------------------------------------------------------------------------------*/
 .image{
     background-image: url("images/bg-fitness.png");
@@ -193,7 +221,7 @@ i:hover{
 }
 /*Sign_in///////////////////////////////////////////////////////////////*/
 .imageins{
- background-image: url("images/bg-signin.png");
+
  background-attachment: fixed;
 background-size: cover;
 background-repeat: no-repeat;
@@ -299,7 +327,7 @@ height: 100%;
     }
     /*page schudenle//////////////////////////////////////////*/
     .imageplan{
-        background-image: url("images/bg-\ Planing.png");
+        
          background-attachment: fixed;
          background-size:cover;
          background-repeat: no-repeat;   
@@ -308,7 +336,7 @@ height: 100%;
     
 .planing{
         height: 450px;
-        background-image: url("images/schedule/Yoga.png");
+        
         background-size: cover;
         opacity: 0.9;
         margin-top: 5%;
